@@ -2,7 +2,7 @@ $(".btn").on("click", function (event) {
     event.preventDefault();
 
 var apiKey = "ekSU7YWoghGMsmMBcqsinm9MNpHIbC3E";
-var queryURL = "http://developer.nytimes.com/article_search_v2.json" + apiKey;
+var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + apiKey;
 
 var searchTerm = "";
 var numberRecords = 0;
